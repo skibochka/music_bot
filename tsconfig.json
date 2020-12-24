@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "outDir": "./build/",
+      "lib": ["es6", "dom"],
+      "moduleResolution": "node",
+      "module": "commonjs",
+      "target": "es2017",
+      "allowJs": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "removeComments": true,
+      "sourceMap": false,
+      "resolveJsonModule": true,
+      "plugins": [
+        {
+          "name": "tslint-language-service"
+        }
+      ],
+      "typeRoots": [
+        "node_modules/@types"
+      ]
+    },
+    "include": [
+      "./src"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+}
